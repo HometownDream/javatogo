@@ -32,7 +32,7 @@ export default defineUserConfig({
       //多语言支持
       locales: {
         "/": {
-          placeholder: "搜索本站",
+          placeholder: "搜索",
         },
       },
       // 热键支持
