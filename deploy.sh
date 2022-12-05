@@ -12,4 +12,4 @@ git commit -m 'deploy'
 git push -f git@github.com:HometownDream/javatogo.git main:main
 
 
-cd -
+
