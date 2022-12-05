@@ -14,10 +14,10 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "小佟の学习笔记",
-      description: "小佟の学习笔记",
+      title: "Java To Go",
+      description: "Java To Go",
       // 设置favicon
-      head: [["link", { rel: "icon", href: "/favicon.svg" }]],
+      head: [["link", { rel: "icon", href: "/logo.svg" }]],
     },
   },
   // 主题设置

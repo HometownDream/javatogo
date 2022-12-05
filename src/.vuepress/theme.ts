@@ -19,7 +19,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   // 网站图标
-  logo: "/site_logo.png",
+  logo: "/logo.svg",
 
   // 导航栏上的个人仓库地址
   repo: "https://gitee.com/oucystong",
@@ -87,7 +87,7 @@ export default hopeTheme({
       sidebar: zhSidebar,
 
       // 全局设置页脚信息
-      footer: "小佟の学习笔记",
+      footer: "Java To Go",
 
       // 显示页脚
       displayFooter: false,

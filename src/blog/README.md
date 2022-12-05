@@ -1,5 +1,6 @@
 ---
 home: true
+title: 个人博客
 layout: Blog
 hero: true
 bgImage: /blog_background.jpg
