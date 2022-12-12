@@ -6,15 +6,11 @@ heroImage: /logo.svg
 heroText: Java To Go
 tagline: ✨一个快速从Java转Go的网站，分享Java和Go的知识✨
 actions:
-  - text: 【快速导航】
-    link: /quicknav/
+  - text: 【一键开转】
+    link: /go/
     type: primary
-  - text: 【代码笔记】
-    link: /codenotes/
-  - text: 【浮生杂记】
-    link: /floatinglife/
-  - text: 【开源项目】
-    link: /projects/
+  - text: 【知识星球】
+    link: /planet/
 features:
   - title: 抖音
     icon: /othericon/douyin.svg
