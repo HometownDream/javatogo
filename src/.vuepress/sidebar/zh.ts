@@ -188,28 +188,102 @@ export const zhSidebar = sidebar({
   // go的侧边栏
   "/go/": [
     {
-      text: "技术教程",
+      text: "go基础",
       icon: "guide",
       collapsible: true,
-      link: "/projects/techguide/",
+      prefix: "/go/goBasic/",
+      children: [
+        {
+          text: "0_Go语言的安装",
+          link: "Java基础-面向对象.md",
+        },
+        {
+          text: "1_Go语言发展简史",
+          link: "Java基础-泛型机制.md",
+        },
+        {
+          text: "2_Go的变量",
+          link: "Java基础-注解机制.md",
+        },
+        {
+          text: "3_Go的数据类型",
+          link: "Java基础-异常机制.md",
+        },
+        {
+          text: "4_Go的运算符",
+          link: "Java基础-反射机制.md",
+        },
+        {
+          text: "5_Go的流程控制",
+          link: "Java集合-类关系图.md",
+        },
+        {
+          text: "6_Go的数组",
+          link: "6_Go的数组.md",
+        },
+        {
+          text: "7_Go的切片",
+          link: "Java8新特性.md",
+        },
+        {
+          text: "8_Go的map",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "9_Go的函数",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "10_Go中的日期函数",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "11_Go中的指针",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "12_Go中的结构体",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "13_Go中的包以及GoMod",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "14_Go中的接口",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "15_goroutine实现并行和并发",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "16_Golang中的反射",
+          link: "Java中的SPI机制.md",
+        },
+        {
+          text: "17_Go中的文件和目录操作",
+          link: "Java中的SPI机制.md",
+        },
+      ],
     },
     {
-      text: "实战项目",
+      text: "goweb",
       icon: "workingDirectory",
       collapsible: true,
-      link: "/projects/pracprojects/",
+      link: "/go/goWeb/",
     },
     {
-      text: "系统设计",
+      text: "go微服务",
       icon: "shell",
       collapsible: true,
-      link: "/projects/systemdesign/",
+      link: "/go/systemdesign/",
     },
     {
-      text: "工具类库",
+      text: "go项目",
       icon: "module",
       collapsible: true,
-      link: "/projects/toollibrary/",
+      link: "/go/toollibrary/",
     },
   ],
 });
