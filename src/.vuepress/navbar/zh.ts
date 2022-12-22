@@ -8,6 +8,8 @@ export const zhNavbar = navbar([
   { text: "开源项目", icon: "free", link: "/projects/" },
   { text: "博客主页", icon: "blog", link: "/blog/" },
   { text: "快速导航", icon: "navigation", link: "/quicknav/" },
+  { text: "英语角", icon: "navigation", link: "/engcorner/" },
+  { text: "run", icon: "navigation", link: "/run/" },
   {
     text: "资源宝库",
     icon: "advance",

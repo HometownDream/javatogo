@@ -286,4 +286,40 @@ export const zhSidebar = sidebar({
       link: "/go/toollibrary/",
     },
   ],
+
+
+  // 英语角的侧边栏
+
+  "/engcorner/":[
+    {
+      text: "英语语法",
+      icon: "guide",
+      collapsible: true,
+      prefix: "/engcorner/tense/",
+      children:[
+        "tense"
+      ],
+    },
+
+
+  ],
+
+
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
