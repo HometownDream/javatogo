@@ -188,6 +188,18 @@ export const zhSidebar = sidebar({
   // go的侧边栏
   "/go/": [
     {
+      text: "go学习路线",
+      icon: "module",
+      collapsible: true,
+      link: "/go/",
+    },
+    {
+      text: "go面试指南",
+      icon: "module",
+      collapsible: true,
+      link: "/go/goInterview/",
+    },
+    {
       text: "go基础",
       icon: "guide",
       collapsible: true,
@@ -195,27 +207,27 @@ export const zhSidebar = sidebar({
       children: [
         {
           text: "0_Go语言的安装",
-          link: "Java基础-面向对象.md",
+          link: "0_Go语言的安装.md",
         },
         {
           text: "1_Go语言发展简史",
-          link: "Java基础-泛型机制.md",
+          link: "1_Go语言发展简史.md",
         },
         {
           text: "2_Go的变量",
-          link: "Java基础-注解机制.md",
+          link: "2_Go的变量.md",
         },
         {
           text: "3_Go的数据类型",
-          link: "Java基础-异常机制.md",
+          link: "3_Go的数据类型.md",
         },
         {
           text: "4_Go的运算符",
-          link: "Java基础-反射机制.md",
+          link: "4_Go的运算符.md",
         },
         {
           text: "5_Go的流程控制",
-          link: "Java集合-类关系图.md",
+          link: "5_Go的流程控制.md",
         },
         {
           text: "6_Go的数组",
@@ -223,47 +235,47 @@ export const zhSidebar = sidebar({
         },
         {
           text: "7_Go的切片",
-          link: "Java8新特性.md",
+          link: "7_Go的切片.md",
         },
         {
           text: "8_Go的map",
-          link: "Java中的SPI机制.md",
+          link: "8_Go的map.md",
         },
         {
           text: "9_Go的函数",
-          link: "Java中的SPI机制.md",
+          link: "9_Go的函数.md",
         },
         {
           text: "10_Go中的日期函数",
-          link: "Java中的SPI机制.md",
+          link: "10_Go中的日期函数.md",
         },
         {
           text: "11_Go中的指针",
-          link: "Java中的SPI机制.md",
+          link: "11_Go中的指针.md",
         },
         {
           text: "12_Go中的结构体",
-          link: "Java中的SPI机制.md",
+          link: "12_Go中的结构体.md",
         },
         {
           text: "13_Go中的包以及GoMod",
-          link: "Java中的SPI机制.md",
+          link: "13_Go中的包以及GoMod.md",
         },
         {
           text: "14_Go中的接口",
-          link: "Java中的SPI机制.md",
+          link: "14_Go中的接口.md",
         },
         {
           text: "15_goroutine实现并行和并发",
-          link: "Java中的SPI机制.md",
+          link: "15_goroutine实现并行和并发.md",
         },
         {
           text: "16_Golang中的反射",
-          link: "Java中的SPI机制.md",
+          link: "16_Golang中的反射.md",
         },
         {
           text: "17_Go中的文件和目录操作",
-          link: "Java中的SPI机制.md",
+          link: "17_Go中的文件和目录操作.md",
         },
       ],
     },
@@ -283,7 +295,13 @@ export const zhSidebar = sidebar({
       text: "go项目",
       icon: "module",
       collapsible: true,
-      link: "/go/toollibrary/",
+      link: "/go/goProject/",
+    },
+    {
+      text: "go学习资源",
+      icon: "module",
+      collapsible: true,
+      link: "/go/goStudy/",
     },
   ],
 
